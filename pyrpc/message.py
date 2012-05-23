@@ -3,10 +3,6 @@
 import zlib
 import struct
 import cPickle
-import time
-import random
-
-random.seed(time.time())
 
 class MessageException(Exception): pass
 class MessageIncomplete(MessageException): pass

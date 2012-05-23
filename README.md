@@ -11,6 +11,8 @@ Therefore you must ensure that the server is only reachable by trusted clients
 in a secure and restricted environment (a public server is therefore absolutely
 **not** recommended).
 
+Transmission is compressed using zlib.
+
 ## Usage
 
 Using PyRPC is pretty simple. See `client_example.py` for client-usage. The server

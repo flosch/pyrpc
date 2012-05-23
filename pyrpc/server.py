@@ -19,13 +19,8 @@ class Connection(object):
             self.socket.close()
             self.socket = None
 
-    def _check_healthy(self):
-        if not self.socket:
-            return False
-        return True
-
     def handle_read(self):
-        if not self._check_healthy():
+        if not self.socket:
             # Connection not healthy, return!
             return False
 
@@ -45,7 +40,7 @@ class Connection(object):
         return True
     
     def handle_write(self):
-        if not self._check_healthy():
+        if not self.socket:
             # Connection not healthy, return!
             return False
         
