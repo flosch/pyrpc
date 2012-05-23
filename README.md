@@ -23,7 +23,7 @@ consists of two classes:
 is newly instantiated for every request. It implements all provided procedures 
 to the client; the method name is prefixed by `handle_`.
 
-Within every method a procedure has access to the following instance attributes:
+Every called method has access to the following instance attributes:
 
  * `address` - contains a (ip, port)-tuple of the remote client address
  * `data` - provides raw access to the request as a `dict`-object 
