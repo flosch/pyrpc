@@ -13,6 +13,12 @@ in a secure and restricted environment (a public server is therefore absolutely
 
 Transmission is compressed using zlib.
 
+## Installation
+
+PyRPC is available at PyPI and known as `fspyrpc`:
+
+    pip install fspyrpc
+
 ## Usage
 
 Using PyRPC is pretty simple. See `client_example.py` for client-usage. The server

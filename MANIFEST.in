@@ -1,0 +1,7 @@
+include LICENSE
+include AUTHORS
+include CHANGES
+include README.md
+include requirements.txt
+#recursive-include docs *.txt *.html *.rst *.bat
+#recursive-exclude docs/_build *.*
