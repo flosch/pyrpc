@@ -18,7 +18,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python'
     ],
-    zip_safe=True,
-    test_suite='tests',
+    zip_safe=False,
+    #test_suite='tests',
     install_requires=open("requirements.txt", "r").read().split()
 )
